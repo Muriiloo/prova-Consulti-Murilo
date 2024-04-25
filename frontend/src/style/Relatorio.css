@@ -1,0 +1,64 @@
+.relatorio-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.select-custom {
+  width: 100%;
+  padding: 10px;
+  margin: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: #fff;
+  color: #333;
+  font-size: 16px;
+  appearance: none;
+  cursor: pointer;
+}
+
+.select-custom option {
+  background-color: #fff;
+  color: #333;
+  font-size: 16px;
+}
+
+.filtros {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.filtro-select {
+  padding: 8px;
+  font-size: 16px;
+}
+
+.filtro-btn {
+  padding: 8px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.resultado-filtro {
+  margin-top: 20px;
+}
+
+.resultado-item {
+  background-color: #f9f9f9;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.item-text {
+  margin: 5px 0;
+}

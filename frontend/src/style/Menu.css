@@ -1,0 +1,33 @@
+
+.menu-container {
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 20px;
+}
+
+.menu-title {
+  font-size: 50px;
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+.menu-list {
+  font-size: 20px;
+  list-style: none;
+  padding: 0;
+}
+
+.menu-item {
+  margin-bottom: 10px;
+}
+
+.menu-link {
+  font-size: 1.2em;
+  color: #007bff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.menu-link:hover {
+  color: #0056b3;
+}
